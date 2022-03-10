@@ -1,0 +1,39 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/*contenedor*/
+body{
+    display: grid;
+    min-height: 100vh;
+}
+/*header nav*/
+header {
+    background-color: rgb(155, 153, 153);
+    max-height: 50px;
+}
+header nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+/*seccion*/
+section{
+    background-color: orange;
+    min-height: 100vh;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: rgb(155, 153, 153);
+    margin-top: auto;
+}
