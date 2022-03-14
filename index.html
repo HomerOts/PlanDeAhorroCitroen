@@ -18,12 +18,12 @@
                 <ul>
                     <li><a href="index.html"> Inicio </a>
                     </li>
-                    <li> <a href="./secciones/c3.html">C3 </a>
+                    <li> <a href="#c3">C3 </a>
 
                     </li>
-                    <li><a href="./secciones/c4cactus.html">C4 Cactus</a>
+                    <li><a href="#c4">C4 Cactus</a>
                     </li>
-                    <li><a href="./secciones/berlingo.html">Berlingo </a>
+                    <li><a href="#berlingo">Berlingo </a>
                     </li>
                 </ul>
             </nav>
@@ -37,21 +37,27 @@
 
             <img src="./imagenes/BANNERSNUEVO-06.jpg" alt="banner">
         </div>
-        <div class="c3">
+        <div class="c3" id="c3">
             <div>
                 <h3>Nuevo Citroen C3</h3>
+                <button type="submit" class="btn btn-secondary btn-sm"><a href="#form1">CONSULTAR</a>
+                </button>
             </div>
             <img class="img--c3" src="./imagenes/nuevo-c3.png" alt="nuevoc3">
         </div>
-        <div class="c3">
+        <div class="c3" id="c4">
             <div>
                 <h3>Citroen C4</h3>
+                <button type="submit" class="btn btn-secondary btn-sm"><a href="#form1">CONSULTAR</a>
+                </button>
             </div>
             <img class="img--c3" src="./imagenes/C4-Cactus-1.png" alt="c4cactus">
         </div>
-        <div class="c3">
+        <div class="c3" id="berlingo">
             <div>
                 <h3>Citroen Berlingo</h3>
+                <button type="submit" class="btn btn-secondary btn-sm"><a href="#form1">CONSULTAR</a>
+                </button>
             </div>
             <img class="img--c3" src="./imagenes/berlingo.png" alt="berlingo">
         </div>
@@ -59,8 +65,8 @@
 
 
         <article class="formu">
-            <div class="form">
-                <h6>Comunicate con nosotros para adquirir tu nuevo Citroën!</h6>
+            <div class="form" id="form1">
+                <p><strong> Comunicate con nosotros para adquirir tu nuevo Citroën!</strong></p>
                 <div class="form-floating mb-3">
                     <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput">Nombre</label>
