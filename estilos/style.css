@@ -141,6 +141,9 @@ footer {
     color: grey;
 }
 
+.phone{
+    text-align: left;
+}
 .sucursales {
     display: flex;
     flex-flow: column wrap;
@@ -290,5 +293,8 @@ strong {
 
         flex-flow: row wrap;
         padding-top: 30vh;
+    }
+    .phone{
+        text-align: center;
     }
 }
