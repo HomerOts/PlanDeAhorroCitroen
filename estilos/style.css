@@ -140,10 +140,6 @@ footer {
 .icon--list ul li a i {
     color: grey;
 }
-
-.phone{
-    text-align: left;
-}
 .sucursales {
     display: flex;
     flex-flow: column wrap;
