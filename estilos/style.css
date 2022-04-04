@@ -1,0 +1,300 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*contenedor*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    min-height: 100vh;
+}
+
+/*header nav*/
+header nav ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    background-color: rgb(236, 235, 235);
+}
+
+ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+ul li:hover {
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+
+ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+ul li a:hover {
+    color: orangered;
+    border-left: 10px;
+    border-right: 10px;
+
+}
+
+
+.logo {
+    height: 120px;
+    width: 150px;
+}
+
+/*Formulario*/
+article {
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: center;
+}
+
+.form-floating {
+    padding-top: 10px;
+}
+
+.btn {
+    padding-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    justify-content: center;
+}
+
+.form button {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70px;
+    text-align: center;
+    justify-content: center;
+    background-color: orangered;
+}
+
+#enviar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/*footer*/
+
+footer {
+    background-color: rgb(236, 235, 235);
+    padding: 1em;
+    bottom: 0;
+    margin-top: auto;
+    color: grey;
+    height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.pie {
+    bottom: 0;
+    margin-bottom: 5px;
+    margin-top: auto;
+    padding-top: 25vh;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.icons {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.icon--list {
+    flex-direction: row;
+}
+
+.icon--list ul {
+    flex-direction: row;
+}
+
+.icon--list ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.icon--list ul li a i {
+    color: grey;
+}
+
+.phone{
+    text-align: left;
+}
+.sucursales {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.sucursales a {
+    text-decoration: none;
+    color: grey;
+    padding-top: 40px;
+}
+
+/*Organizar contenido*/
+section div {
+    margin-bottom: 10px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+section {
+    background-color: white;
+    min-height: 100vh;
+}
+
+strong {
+    color: grey;
+}
+
+
+.c3 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px grey;
+    border-radius: 12%;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img--c3 {
+    padding-top: 20px;
+    height: 200px;
+    width: 200px;
+
+}
+
+/*Recuadros*/
+.c3 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.c3 button {
+    background-color: orangered;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.recuadros {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+@media screen and (min-width: 576px) {
+
+    .c3 {
+        justify-content: center;
+        width: 400px;
+    }
+
+    .img--c3 {
+        height: 320px;
+        width: 380px;
+    }
+
+    header nav ul {
+        height: 200px;
+
+    }
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+    .formu {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .form {
+        width: 50%;
+    }
+
+    .c3 {
+        justify-content: space-around;
+        width: 400px;
+    }
+
+    .img--c3 {
+        height: 300px;
+        width: 350px;
+    }
+
+    .recuadros {
+        flex-flow: row wrap;
+    }
+
+    header nav ul {
+        height: 80px;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
+    }
+    .img--c3 {
+        height: 320px;
+        width: 400px;
+    }
+
+    .logo {
+        height: 150px;
+        width: 180px;
+    }
+    .pie{
+        padding-top: 20vh;
+    }
+    .redes {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .sucursales {
+
+        flex-flow: row wrap;
+        padding-top: 30vh;
+    }
+    .phone{
+        text-align: center;
+    }
+}
